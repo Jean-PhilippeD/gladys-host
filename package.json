@@ -1,0 +1,16 @@
+{
+  "name": "gladys-host",
+  "version": "0.1.0",
+  "description": "Gladys hooks for controlling your local hosts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jean-Philippe Danrée",
+  "license": "CC-BY-NC-SA-3.0",
+  "dependencies": {
+    "ssh-keygen": "~0.2.1",
+    "node-wol": "~0.1.1",
+    "ssh-exec": "~2.0.0"
+  }
+}
