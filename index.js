@@ -10,9 +10,9 @@ module.exports = function(sails) {
     
     return {
         install: install,
-        initialize: initialize,
         exec: exec,
         command: command,
-        setup: setup
+        setup: setup,
+        initialize: initialize
     };
 };
