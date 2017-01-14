@@ -7,9 +7,11 @@ module.exports = function(sails) {
     var initialize = require('./lib/initialize.js');
     var command = require('./lib/command.js');
     var setup = require('./lib/setup.js');
+    var uninstall = require('./lib/uninstall.js');
     
     return {
         install: install,
+        uninstall: uninstall,
         exec: exec,
         command: command,
         setup: setup,
