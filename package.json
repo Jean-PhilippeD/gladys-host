@@ -11,6 +11,6 @@
   "dependencies": {
     "ssh-keygen": "~0.2.1",
     "node-wol": "~0.1.1",
-    "ssh-exec": "~2.0.0"
+    "promised-ssh": "~0.6.1"
   }
 }
